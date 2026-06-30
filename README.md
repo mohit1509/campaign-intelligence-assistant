@@ -1,20 +1,26 @@
-# campaign-intelligence-assistant
-AI-powered Campaign Analytics and Recommendation Tool
-
 # Campaign Intelligence Assistant
 
-An AI-powered campaign analytics application built using Python and Streamlit.
+## Overview
+AI-powered analytics system for evaluating marketing campaign performance using statistical testing and automated insights.
 
-## Objective
+## Problem Statement
+Campaign evaluation is manual, slow, and inconsistent across teams, leading to delayed decision-making and suboptimal budget allocation.
 
-This application helps marketing and CRM teams evaluate campaign effectiveness using statistical analysis and AI-generated recommendations.
+## Solution
+A Python-based analytics engine that:
+- Processes campaign datasets
+- Calculates performance KPIs
+- Performs statistical significance testing
+- Generates automated recommendations using rule-based logic (AI layer later)
 
-## Planned Features
+## Architecture
+- `app.py` → Application entry point
+- `src/analysis.py` → KPI calculations
+- `src/statistics.py` → Statistical testing logic
+- `src/recommendation_engine.py` → Insight generation
 
-- Upload campaign data
-- Dashboard
-- Uplift calculation
-- Statistical significance testing
-- AI recommendations
-- Executive summaries
-- Campaign comparison
+## Tech Stack
+Python, Pandas (planned), Streamlit (planned), GitHub
+
+## Status
+Phase 1: Project initialization completed
